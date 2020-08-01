@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		 <meta charset="UTF-8">
+		 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Image Slidder</title>
+		<link rel="stylesheet" href="style.css" />
+		<script src="https://kit.fontawesome.com/a076d053999.js">
+    </script>
+	</head>
+	<body>
+		<div class="content">
+			<div class="images">
+				<img src="https://images.unsplash.com/photo-1594987057733-1fb3fe5707c9?ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60">
+				<img src="https://images.unsplash.com/photo-1560493676-04071c5f467b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60">
+				<img src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60">
+				<img src="https://images.unsplash.com/9/fields.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60">
+				<img src="https://images.unsplash.com/photo-1534073133331-c4b62a557083?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60">
+			</div>
+			<div onclick="side_slide(-1)" class="slide left">
+				<span class="fas fa-angle-left"></span>
+			</div>
+			<div onclick="side_slide(1)" class="slide right">
+				<span class="fas fa-angle-right"></span>
+			</div>
+			<div class="btm-sliders">
+				<span onclick="btm_slide(1)"></span>
+				<span onclick="btm_slide(2)"></span>
+				<span onclick="btm_slide(3)"></span>
+				<span onclick="btm_slide(4)"></span>
+				<span onclick="btm_slide(5)"></span>
+			</div>
+		</div>
+		<script src="style.js"></script>
+	</body>
+
+</html>
